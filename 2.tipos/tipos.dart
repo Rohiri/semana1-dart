@@ -29,4 +29,36 @@ void main() {
     print(text7);
     print(text8);
 
+    //Lists
+    var myList = [1, 2, 3, 4, 5];
+    List<String> myList2 = ['Php', 'Pyhon', 'Java', 'Javascript', 'Go'];
+    List<String> myList3 = ['Cobol',...myList2];
+    List<String>? myList4;
+    List<String> myList5 = [...?myList4,...myList3];
+
+    var listSet = {'Google', 'Amazon', 'Netflix', 'Google', 'Google'};
+    listSet.add('Microsoft');
+
+    var listMultidata = [1.4,"App",true];
+
+    myList3.add('.Net');
+
+    var map = {
+        "name": 'William',
+        "Job" : 'Fullstack',
+        "Enable": true,
+    };
+
+    map['Job'] = 'SRE';
+
+
+
+    print(myList);
+    print(myList2);
+    print(myList2.reversed);
+    print(myList3);
+    print(listSet);
+    print(listMultidata);
+    print(map);
+
 }
