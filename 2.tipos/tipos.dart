@@ -61,4 +61,6 @@ void main() {
     print(listMultidata);
     print(map);
 
+    map.forEach((key, value) => print(value));
+
 }
